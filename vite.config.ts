@@ -11,6 +11,9 @@ export default defineConfig({
         main: path.resolve(__dirname, 'index.html'),
         nested: path.resolve(__dirname, 'page2.html'),
       },
+      output: {
+        inlineDynamicImports: false,
+      }
     }
   }
 })
