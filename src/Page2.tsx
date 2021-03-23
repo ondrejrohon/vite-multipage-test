@@ -9,7 +9,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>Page1</p>
+        <p>Page2</p>
         <p>
           <button onClick={() => setCount((count) => count + 1)}>
             count is: {count}
@@ -19,11 +19,11 @@ function App() {
           Edit <code>App.tsx</code> and save to test HMR updates.
         </p>
         <p>
-        <a
+          <a
             className="App-link"
-            href="/2"
+            href="/"
           >
-            Page 2
+            Home
           </a>
         </p>
       </header>
